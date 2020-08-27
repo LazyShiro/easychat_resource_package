@@ -1,4 +1,4 @@
-/** layui-v2.5.4 MIT License By https://www.layui.com */
+/** layui-v2.5.6 MIT License By https://www.layui.com */
 .layui-inline, img {
     display: inline-block;
     vertical-align: middle
@@ -180,8 +180,8 @@ a cite {
 
 @font-face {
     font-family: layui-icon;
-    src: url(../font/iconfont.eot?v=250);
-    src: url(../font/iconfont.eot?v=250#iefix) format('embedded-opentype'), url(../font/iconfont.woff2?v=250) format('woff2'), url(../font/iconfont.woff?v=250) format('woff'), url(../font/iconfont.ttf?v=250) format('truetype'), url(../font/iconfont.svg?v=250#layui-icon) format('svg')
+    src: url(../font/iconfont.eot?v=256);
+    src: url(../font/iconfont.eot?v=256#iefix) format('embedded-opentype'), url(../font/iconfont.woff2?v=256) format('woff2'), url(../font/iconfont.woff?v=256) format('woff'), url(../font/iconfont.ttf?v=256) format('truetype'), url(../font/iconfont.svg?v=256#layui-icon) format('svg')
 }
 
 .layui-icon {
@@ -296,6 +296,10 @@ a cite {
     content: "\e62e"
 }
 
+.layui-icon-ie:before {
+    content: "\e7bb"
+}
+
 .layui-icon-upload-circle:before {
     content: "\e62f"
 }
@@ -372,6 +376,10 @@ a cite {
     content: "\e635"
 }
 
+.layui-icon-windows:before {
+    content: "\e67f"
+}
+
 .layui-icon-water:before {
     content: "\e636"
 }
@@ -420,6 +428,10 @@ a cite {
     content: "\e604"
 }
 
+.layui-icon-firefox:before {
+    content: "\e686"
+}
+
 .layui-icon-friends:before {
     content: "\e612"
 }
@@ -466,6 +478,10 @@ a cite {
 
 .layui-icon-log:before {
     content: "\e60e"
+}
+
+.layui-icon-key:before {
+    content: "\e683"
 }
 
 .layui-icon-rate-solid:before {
@@ -552,6 +568,10 @@ a cite {
     content: "\e64b"
 }
 
+.layui-icon-screen-full:before {
+    content: "\e622"
+}
+
 .layui-icon-form:before {
     content: "\e63c"
 }
@@ -568,8 +588,20 @@ a cite {
     content: "\e62a"
 }
 
+.layui-icon-heart-fill:before {
+    content: "\e68f"
+}
+
 .layui-icon-fonts-code:before {
     content: "\e64e"
+}
+
+.layui-icon-ios:before {
+    content: "\e680"
+}
+
+.layui-icon-at:before {
+    content: "\e687"
 }
 
 .layui-icon-fire:before {
@@ -600,6 +632,10 @@ a cite {
     content: "\e671"
 }
 
+.layui-icon-bluetooth:before {
+    content: "\e689"
+}
+
 .layui-icon-flag:before {
     content: "\e66c"
 }
@@ -620,8 +656,16 @@ a cite {
     content: "\e65e"
 }
 
+.layui-icon-addition:before {
+    content: "\e624"
+}
+
 .layui-icon-home:before {
     content: "\e68e"
+}
+
+.layui-icon-time:before {
+    content: "\e68d"
 }
 
 .layui-icon-user:before {
@@ -630,6 +674,14 @@ a cite {
 
 .layui-icon-notice:before {
     content: "\e667"
+}
+
+.layui-icon-chrome:before {
+    content: "\e68a"
+}
+
+.layui-icon-edge:before {
+    content: "\e68b"
 }
 
 .layui-icon-login-weibo:before {
@@ -652,12 +704,24 @@ a cite {
     content: "\e6b1"
 }
 
+.layui-icon-heart:before {
+    content: "\e68c"
+}
+
+.layui-icon-logout:before {
+    content: "\e682"
+}
+
 .layui-icon-file-b:before {
     content: "\e655"
 }
 
 .layui-icon-template:before {
     content: "\e663"
+}
+
+.layui-icon-transfer:before {
+    content: "\e691"
 }
 
 .layui-icon-auz:before {
@@ -686,6 +750,10 @@ a cite {
 
 .layui-icon-component:before {
     content: "\e857"
+}
+
+.layui-icon-android:before {
+    content: "\e684"
 }
 
 .layui-icon-more:before {
@@ -724,6 +792,10 @@ a cite {
     content: "\e662"
 }
 
+.layui-icon-screen-restore:before {
+    content: "\e758"
+}
+
 .layui-icon-password:before {
     content: "\e673"
 }
@@ -760,48 +832,68 @@ a cite {
     content: "\e679"
 }
 
+.layui-icon-service:before {
+    content: "\e626"
+}
+
 .layui-icon-cellphone:before {
     content: "\e678"
-}
-
-.layui-icon-screen-full:before {
-    content: "\e622"
-}
-
-.layui-icon-screen-restore:before {
-    content: "\e758"
-}
-
-.layui-icon-cols:before {
-    content: "\e610"
-}
-
-.layui-icon-export:before {
-    content: "\e67d"
 }
 
 .layui-icon-print:before {
     content: "\e66d"
 }
 
+.layui-icon-cols:before {
+    content: "\e610"
+}
+
+.layui-icon-wifi:before {
+    content: "\e7e0"
+}
+
+.layui-icon-export:before {
+    content: "\e67d"
+}
+
+.layui-icon-rss:before {
+    content: "\e808"
+}
+
 .layui-icon-slider:before {
     content: "\e714"
 }
 
-.layui-icon-addition:before {
-    content: "\e624"
+.layui-icon-email:before {
+    content: "\e618"
 }
 
 .layui-icon-subtraction:before {
     content: "\e67e"
 }
 
-.layui-icon-service:before {
-    content: "\e626"
+.layui-icon-mike:before {
+    content: "\e6dc"
 }
 
-.layui-icon-transfer:before {
-    content: "\e691"
+.layui-icon-light:before {
+    content: "\e748"
+}
+
+.layui-icon-gift:before {
+    content: "\e627"
+}
+
+.layui-icon-mute:before {
+    content: "\e685"
+}
+
+.layui-icon-reduce-circle:before {
+    content: "\e616"
+}
+
+.layui-icon-music:before {
+    content: "\e690"
 }
 
 .layui-main {
@@ -1429,12 +1521,20 @@ a cite {
     padding: .5px
 }
 
-.layui-col-space3 {
-    margin: -1.5px
+.layui-col-space2 {
+    margin: -1px
 }
 
-.layui-col-space3 > * {
-    padding: 1.5px
+.layui-col-space2 > * {
+    padding: 1px
+}
+
+.layui-col-space4 {
+    margin: -2px
+}
+
+.layui-col-space4 > * {
+    padding: 2px
 }
 
 .layui-col-space5 {
@@ -1445,12 +1545,20 @@ a cite {
     padding: 2.5px
 }
 
+.layui-col-space6 {
+    margin: -3px
+}
+
+.layui-col-space6 > * {
+    padding: 3px
+}
+
 .layui-col-space8 {
-    margin: -3.5px
+    margin: -4px
 }
 
 .layui-col-space8 > * {
-    padding: 3.5px
+    padding: 4px
 }
 
 .layui-col-space10 {
@@ -1469,12 +1577,28 @@ a cite {
     padding: 6px
 }
 
+.layui-col-space14 {
+    margin: -7px
+}
+
+.layui-col-space14 > * {
+    padding: 7px
+}
+
 .layui-col-space15 {
     margin: -7.5px
 }
 
 .layui-col-space15 > * {
     padding: 7.5px
+}
+
+.layui-col-space16 {
+    margin: -8px
+}
+
+.layui-col-space16 > * {
+    padding: 8px
 }
 
 .layui-col-space18 {
@@ -1501,12 +1625,36 @@ a cite {
     padding: 11px
 }
 
+.layui-col-space24 {
+    margin: -12px
+}
+
+.layui-col-space24 > * {
+    padding: 12px
+}
+
 .layui-col-space25 {
     margin: -12.5px
 }
 
 .layui-col-space25 > * {
     padding: 12.5px
+}
+
+.layui-col-space26 {
+    margin: -13px
+}
+
+.layui-col-space26 > * {
+    padding: 13px
+}
+
+.layui-col-space28 {
+    margin: -14px
+}
+
+.layui-col-space28 > * {
+    padding: 14px
 }
 
 .layui-col-space30 {
@@ -1799,7 +1947,8 @@ a cite {
 
 .layui-text em, .layui-word-aux {
     color: #999 !important;
-    padding: 0 5px !important
+    padding-left: 5px !important;
+    padding-right: 5px !important
 }
 
 .layui-btn {
@@ -2057,7 +2206,7 @@ a cite {
 }
 
 .layui-input-block {
-    /*margin-left: 110px;*/
+    margin-left: 110px;
     min-height: 36px
 }
 
@@ -2735,7 +2884,7 @@ a cite {
     font-size: 16px
 }
 
-.layui-laypage .layui-laypage-count, .layui-laypage .layui-laypage-limits, .layui-laypage .layui-laypage-refresh, .layui-laypage .layui-laypage-skip, .layui-laypage .layui-laypage-find {
+.layui-laypage .layui-laypage-count, .layui-laypage .layui-laypage-limits, .layui-laypage .layui-laypage-refresh, .layui-laypage .layui-laypage-skip {
     margin-left: 10px;
     margin-right: 10px;
     padding: 0;
@@ -2758,7 +2907,7 @@ a cite {
     cursor: pointer
 }
 
-.layui-laypage .layui-laypage-skip, .layui-laypage .layui-laypage-find {
+.layui-laypage .layui-laypage-skip {
     height: 30px;
     line-height: 30px;
     color: #999
@@ -3622,7 +3771,7 @@ body .layui-table-tips .layui-layer-content {
     position: absolute;
     top: 50%;
     right: 3px;
-    margin-top: -3px;
+    margin-top: -4px;
     border-width: 6px;
     border-top-color: rgba(255, 255, 255, .7)
 }

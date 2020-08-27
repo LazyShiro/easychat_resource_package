@@ -61,15 +61,27 @@ body .layui-layim .layui-layer-content, body .layui-layim-chat .layui-layer-cont
     white-space: nowrap
 }
 
+.layui-layim-avatar {
+    float: left;
+    margin-top: 5px;
+    width: 3rem;
+    height: 3rem;
+}
+
 .layui-layim-info .layui-layim-user {
     max-width: 150px;
     margin-right: 5px;
     font-size: 16px
 }
 
+.layui-layim-user {
+    margin-left: 15px;
+}
+
 .layui-layim-status {
     position: relative;
     top: 2px;
+    left: 10px;
     line-height: 19px;
     cursor: pointer
 }
@@ -127,9 +139,9 @@ body .layui-layim .layui-layer-content, body .layui-layim-chat .layui-layer-cont
 
 .layui-layim-remark {
     position: relative;
-    left: -6px;
+    left: 5px;
     display: block;
-    width: 100%;
+    /*width: 100%;*/
     border: 1px solid transparent;
     margin-top: 8px;
     padding: 0 5px;
